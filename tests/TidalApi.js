@@ -7,8 +7,6 @@ const path = require("path");
 
 describe("Api for Tidal music", async () => {
     let tidalApi = new TidalApi({
-        username: "irrma@o2.pl",
-        password: "w1mpprobny",
         token: "BI218mwp9ERZ3PFI",
         quality: "HIGH"
     });
